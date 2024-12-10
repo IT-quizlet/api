@@ -55,5 +55,5 @@ CREATE TABLE "User_Saved_Quizzes" (
 CREATE TABLE "Quiz_Questions" (
                                   quiz_id UUID NOT NULL REFERENCES "Quiz"(id) ON DELETE CASCADE,
                                   question_id UUID NOT NULL REFERENCES "Question"(id) ON DELETE CASCADE,
-                                  PRIMARY KEY (quiz_iquestion_id)
+                                  PRIMARY KEY (quiz_id, question_id)
 );
