@@ -12,7 +12,7 @@
 
 1. **Клонувати репозиторій:**
    ```bash
-   git clone https://github.com/ваш-користувач/quiz.git
+   git clone https://github.com/IT-quizlet/api.git
    cd quiz
 
 2. **Зібрати проєкт:**
